@@ -37,7 +37,7 @@ public class Bootstrap extends Activity {
                 String zImage = filesDir + "/zImage ; sync";
 
                 StringBuilder command = new StringBuilder();
-                command.append(flash_image + " boot " + zImage);
+                command.append(flash_image + " recovery " + zImage);
                 
                 AlertDialog.Builder builder = new Builder(Bootstrap.this);
                 builder.setPositiveButton(android.R.string.ok, null);
